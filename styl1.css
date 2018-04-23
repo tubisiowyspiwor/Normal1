@@ -279,14 +279,14 @@ html:before{
      background-image: url(https://i.imgur.com/vN6Kldh.png);
      background-color: transparent;
 }
- #loots{
+/* #loots{
      background-image: url(http://oi48.tinypic.com/hx64y1.jpg) !important;
 }
  #loots_l, #loots_r, #loots .loot, #loots B.yes, #loots B.no, #loots_counter, #loots_button, #loots B.need{
      background-image: url(http://i.imgur.com/FjeN5CF.png);
      background-color: transparent;
      color: white;
-}
+}*/
  #loot-preview{
      background-image: url(https://i.imgur.com/r4HiBZK.png);
 }
