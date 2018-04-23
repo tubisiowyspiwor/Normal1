@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext);
  ::-webkit-scrollbar-track{
      border: 1px solid black;
      background-color: rgba(0,0,0,.5);
