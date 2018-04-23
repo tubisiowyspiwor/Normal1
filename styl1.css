@@ -279,16 +279,6 @@ html:before{
      background-image: url(https://i.imgur.com/vN6Kldh.png);
      background-color: transparent;
 }
-/* #loots{
-     background-image: url(https://i.imgur.com/lbOPx2C.png) !important;
-}
- #loots_l, #loots_r, #loots .loot, #loots B.yes, #loots B.no, #loots_counter, #loots_button, #loots B.need{
-     background-image: url(https://i.imgur.com/VVwSCfG.png);
-     background-color: transparent;
-}
- #loot-preview{
-     background-image: url(https://i.imgur.com/r4HiBZK.png);*/
-}
  #match-details-wnd .match-details-title{
      background-image: url(https://i.imgur.com/wtismfd.png);
 }
@@ -361,9 +351,6 @@ html:before{
  #auctions button, #ahtitle, #ahselect, #ah_mylist H5, #ahselect B#b_myah, #auctions .itemcont, #auctions #ah_filter BUTTON{
      background-image: url(https://i.imgur.com/TUtJxrZ.png) !important;
 }
- /*#loot-preview .close-but:hover{
-     background-image: url(https://i.imgur.com/7YJihOA.png);
-}*/
  #depo-sections .depoUpgrade{
      background-color: #070;
      height: 22px;
@@ -790,7 +777,7 @@ html:before{
      font: 13px "Lato", sans-serif;
      background-image: url(https://i.imgur.com/rCP0uw0.png);
 }
- #pre-premium-panel .close-pre-premium, #recipes .close-but, #chests-window .close-chests-window /*, #loot-preview .close-but*/{
+ #pre-premium-panel .close-pre-premium, #recipes .close-but, #chests-window .close-chests-window {
      background-image: url(https://i.imgur.com/7YJihOA.png);
 }
  .closebut, .close-but{
@@ -967,7 +954,7 @@ html:before{
  * {
      cursor: url(http://aldous.margonem.pl/img/gui/cursor/1.png), auto;
 }
-.shairVersions div.active, .shairVersions div, .bal_cancel, #myfrscrollbar, #myenscrollbar, .otchlannew, .dodatkionpub, .dodatkion, .tworcy-icon, /*#loot-preview .close-but,*/ .MM-queue-button, .uninstall-icon, .checkbox-gd, .header-wrapper .close-button, .header .close-button, #addons .description *, .menu_element, .bal_yes, .bal_no, .MM-button *, .close-chests-window, .skillbox_icon, .skillbox_icon_holder, .skillbox, #a_ok.bal_ok, #chatscrollbar, #pre-premium-panel .tiles-wrapper .pre-premium-panel-tile, .close-pre-premium, .graph.sl-cl, .header-txt, .graph,shop-cl, .graph.chest-cl, .graph.for-you-cl, .MM-stat-button, .MM-fight-button, .MM-rank-button, .MM-stat-header, .MM-fight-header, .MM-rank-header, .closebut, .ustawienia, #chattxt .chnick, #chattxt U, #chat, #chattabs, #chattabs s, #chat.left, #chattabs.left, .rightStatBut, .MM-battleset-switch-button, #cfg_options > div, [onclick], [href], [onclick] > *{
+.shairVersions div.active, .shairVersions div, .bal_cancel, #myfrscrollbar, #myenscrollbar, .otchlannew, .dodatkionpub, .dodatkion, .tworcy-icon, .MM-queue-button, .uninstall-icon, .checkbox-gd, .header-wrapper .close-button, .header .close-button, #addons .description *, .menu_element, .bal_yes, .bal_no, .MM-button *, .close-chests-window, .skillbox_icon, .skillbox_icon_holder, .skillbox, #a_ok.bal_ok, #chatscrollbar, #pre-premium-panel .tiles-wrapper .pre-premium-panel-tile, .close-pre-premium, .graph.sl-cl, .header-txt, .graph,shop-cl, .graph.chest-cl, .graph.for-you-cl, .MM-stat-button, .MM-fight-button, .MM-rank-button, .MM-stat-header, .MM-fight-header, .MM-rank-header, .closebut, .ustawienia, #chattxt .chnick, #chattxt U, #chat, #chattabs, #chattabs s, #chat.left, #chattabs.left, .rightStatBut, .MM-battleset-switch-button, #cfg_options > div, [onclick], [href], [onclick] > *{
      cursor: url(http://aldous.margonem.pl/img/gui/cursor/5.png), auto !important;
 }
  .ustawienia{
