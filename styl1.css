@@ -361,9 +361,9 @@ html:before{
  #auctions button, #ahtitle, #ahselect, #ah_mylist H5, #ahselect B#b_myah, #auctions .itemcont, #auctions #ah_filter BUTTON{
      background-image: url(https://i.imgur.com/TUtJxrZ.png) !important;
 }
- #loot-preview .close-but:hover{
+ /*#loot-preview .close-but:hover{
      background-image: url(https://i.imgur.com/7YJihOA.png);
-}
+}*/
  #depo-sections .depoUpgrade{
      background-color: #070;
      height: 22px;
@@ -790,7 +790,7 @@ html:before{
      font: 13px "Lato", sans-serif;
      background-image: url(https://i.imgur.com/rCP0uw0.png);
 }
- #pre-premium-panel .close-pre-premium, #recipes .close-but, #chests-window .close-chests-window, #loot-preview .close-but{
+ #pre-premium-panel .close-pre-premium, #recipes .close-but, #chests-window .close-chests-window /*, #loot-preview .close-but*/{
      background-image: url(https://i.imgur.com/7YJihOA.png);
 }
  .closebut, .close-but{
