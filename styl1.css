@@ -285,6 +285,7 @@ html:before{
  #loots_l, #loots_r, #loots .loot, #loots B.yes, #loots B.no, #loots_counter, #loots_button, #loots B.need{
      background-image: url(http://i.imgur.com/FjeN5CF.png);
      background-color: transparent;
+	 color: white;
 }
  #loot-preview{
      background-image: url();
