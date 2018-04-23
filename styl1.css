@@ -280,7 +280,7 @@ html:before{
      background-color: transparent;
 }
  #loots{
-     background-image: url() !important;
+     background-image: url(img/loots-back.png)) !important;
 }
  #loots_l, #loots_r, #loots .loot, #loots B.yes, #loots B.no, #loots_counter, #loots_button, #loots B.need{
      background-image: url();
