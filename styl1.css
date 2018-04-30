@@ -279,16 +279,6 @@ html:before{
      background-image: url(https://i.imgur.com/vN6Kldh.png);
      background-color: transparent;
 }
- #loots{
-     background-image: url(https://i.imgur.com/lbOPx2C.png) !important;
-}
- #loots_l, #loots_r, #loots .loot, #loots B.yes, #loots B.no, #loots_counter, #loots_button, #loots B.need{
-     background-image: url(https://i.imgur.com/VVwSCfG.png);
-     background-color: transparent;
-}
- #loot-preview{
-     background-image: url(https://i.imgur.com/r4HiBZK.png);
-}
  #match-details-wnd .match-details-title{
      background-image: url(https://i.imgur.com/wtismfd.png);
 }
