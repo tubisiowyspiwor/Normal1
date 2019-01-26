@@ -9,28 +9,6 @@ for(var i in discordwebhook)
 	discordwebhook[i] = eval(discordwebhook[i]);
 
 {
-var menutoDW = $('<div/>')
-    .append($('<span tip="DiscordWebhook" style="color:#44A9CE">DW</span>'))
-    .append($('<input type="checkbox" tip="Powiadamiaj o e2 na Disordzie."/>')
-        .attr('checked',discordwebhook[0])
-        .change(function()
-            {
-                discordwebhook[0] = $(this).attr('checked');
-                data = new Date(); data.setTime(data.getTime()+3600000*24*31);
-                setCookie("discordwebhook", discordwebhook.join("|"), data);
-            }))
-	.append($('<input type="checkbox" tip="Powiadamiaj o herosach i tytanach na Discordzie."/>')
-        .attr('checked', discordwebhook[1])
-        .change(function()
-            {
-                discordwebhook[1] = $(this).attr('checked');
-                data = new Date(); data.setTime(data.getTime()+3600000*24*31);
-                setCookie("discordwebhook", discordwebhook.join("|"), data);
-            }));
-
-}
-
-
 (function(old) {
     newNpc = function(a) {
         old(a);
