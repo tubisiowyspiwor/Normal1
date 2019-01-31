@@ -26,7 +26,10 @@ for(var i in discordwebhook)
                     url: "https://discordapp.com/api/webhooks/538479913330671628/m2NzF11WRYEywtfgXBVTCsvt8JFf5mHRkODfBM91t56zrBW36zNlHRTMMIsub4HwduDQ",
                     type: "POST",
                     data: {
-                      content: "@here **"+a[i].nick+"** INFO `"+hero.nick+"`",
+			username: a[i].nick,
+			content: "@here **"+a[i].nick+"** INFO `"+hero.nick+"`",
+			  
+			    
                     },
                 });
             }
@@ -35,6 +38,7 @@ for(var i in discordwebhook)
                     url: "https://discordapp.com/api/webhooks/538471618704310283/tRIn33dDGJuRSc8q8QCIhDf4oYONQ64YRerfMraqqKEfKRokwdEOHLV16IdQOmrfoLlB",
                     type: "POST",
                     data: {
+		 username: a[i].nick,
                         content: "@here **Heros** `"+a[i].nick+"` na mapie "+map.name+" "+a[i].x+","+a[i].y+" INFO `"+hero.nick+"`",
                     },
                 });
@@ -44,6 +48,7 @@ for(var i in discordwebhook)
                     url: "https://discordapp.com/api/webhooks/538471618704310283/tRIn33dDGJuRSc8q8QCIhDf4oYONQ64YRerfMraqqKEfKRokwdEOHLV16IdQOmrfoLlB",
                     type: "POST",
                     data: {
+			username: a[i].nick
                         content: "@everyone **Tytan** `"+a[i].nick+"` na mapie "+map.name+" INFO `"+hero.nick+"`",
                     },
                 });
