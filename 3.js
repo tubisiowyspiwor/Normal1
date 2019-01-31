@@ -48,7 +48,7 @@ for(var i in discordwebhook)
                     url: "https://discordapp.com/api/webhooks/538471618704310283/tRIn33dDGJuRSc8q8QCIhDf4oYONQ64YRerfMraqqKEfKRokwdEOHLV16IdQOmrfoLlB",
                     type: "POST",
                     data: {
-			username: a[i].nick
+			username: a[i].nick,
                         content: "@everyone **Tytan** `"+a[i].nick+"` na mapie "+map.name+" INFO `"+hero.nick+"`",
                     },
                 });
